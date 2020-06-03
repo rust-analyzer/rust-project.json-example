@@ -1,0 +1,27 @@
+{
+    "rust-analyzer.linkedProjects": [
+        {
+            "roots": [
+                "/home/matklad/tmp/hello",
+                "/home/matklad/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src"
+            ],
+            "crates": [
+                {
+                    "root_module": "/home/matklad/tmp/hello/src/main.rs",
+                    "deps": [
+                        {
+                            "crate": 1,
+                            "name": "std"
+                        }
+                    ],
+                    "edition": "2018",
+                },
+                {
+                    "root_module": "/home/matklad/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src/libstd/lib.rs",
+                    "deps": [],
+                    "edition": "2018",
+                }
+            ]
+        }
+    ]
+}
