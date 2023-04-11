@@ -6,6 +6,14 @@
                 {
                     "root_module": "src/main.rs",
                     "edition": "2018",
+                    "deps": [{
+                        "crate": 1,
+                        "name": "hello",
+                    }],
+                },
+                {
+                    "root_module": "include/hello.rs",
+                    "edition": "2018",
                     "deps": [],
                 },
             ]

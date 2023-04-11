@@ -1,7 +1,6 @@
 use std::collections::HashMap;
 
-fn foo() {}
 fn main() {
-    std::asm!()
-    println!("Hello, world!");
+    std::assert!(true);
+    hello::print_hello();
 }
